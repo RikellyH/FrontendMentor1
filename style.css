@@ -1,0 +1,49 @@
+* {
+  margin: 25px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  background-position: center;
+  background-color: #a2d4fa;
+  text-align: center;
+  overflow: overlay;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 335px;
+  height: 435px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  width: 285px;
+  height: 250px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-header {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+}
